@@ -1,0 +1,28 @@
+{
+  "name": "npm-proxy-switch",
+  "version": "1.0.0",
+  "description": "switch between multiple npm proxies",
+  "main": "./index.js",
+  "scripts": {},
+  "bin": {
+    "npm-proxy-switch": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fahimc/npm-proxy-switch.git"
+  },
+  "dependencies": {
+    "shelljs": "^0.5.3"
+  },
+  "keywords": [
+    "npm",
+    "proxy"
+  ],
+  "author": "Fahim Chowdhury <fahim.chowdhury@thomsonreuters.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahimc/npm-proxy-switch/issues"
+  },
+  "homepage": "https://github.com/fahimc/npm-proxy-switch"
+}
+

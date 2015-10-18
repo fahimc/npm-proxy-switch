@@ -1,0 +1,6 @@
+{
+    "reuters": {
+        "proxy-https": "http://proxy.company.com:8080",
+        "proxy": "http://proxy.company.com:8080"
+    }
+}
