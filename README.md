@@ -37,3 +37,13 @@ This will set the proxy to the values which is set on the name.
 ```js
 npm-proxy-switch example
 ```
+
+## `none`
+
+This will set the proxy to empty values
+
+#### Example
+
+```js
+npm-proxy-switch none
+```

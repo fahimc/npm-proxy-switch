@@ -20,7 +20,12 @@ var SetCommand = {
 		fs.readFile(this.root+'/resources/proxies.json', 'utf8', this.onGetProxyFile.bind(this));
 	},
 	setProxy:function(content){
-		if(!content[this.name]){
+		if (this.name === 'none') {
+			exec('npm config delete proxy');
+			exec('npm config delete https-proxy');
+			this.Logger.ok('successfully removed proxy settings');
+			return;
+		  } else if(!content[this.name]){
 			console.log('proxy not found');
 			return;
 		}
