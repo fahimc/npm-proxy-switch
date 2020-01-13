@@ -19,6 +19,14 @@ This will restore the npmrc that you removed previously.
 npm-proxy-switch npmrc restore
 ```
 
+## `get`
+This will show a list of all stored proxies 
+
+#### Example
+
+```js
+npm-proxy-switch get
+```
 
 ## `<name> set <proxyType> <proxyURL>`
 This will store a proxy setting under the `name` that you've provided. You can add multiple types under the same `name`
