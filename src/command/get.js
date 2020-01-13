@@ -13,8 +13,6 @@ var GetCommand = {
 		this.getTask(args);
 	},
 	getTask:function(args){ 
-		
-		this.name =  args[2];
 		this.get();
 	},
 	get:function(){
